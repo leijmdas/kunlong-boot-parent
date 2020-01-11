@@ -197,22 +197,7 @@
             </plugin>
         </plugins>
     </build>
-    <!-- 发布到服务器需要  -->
-    <!--<distributionManagement>-->
-        <!--<repository>-->
-            <!--<id>m2-releases</id>-->
-            <!--<url>-->
-                <!--http://120.77.172.83:8081/nexus/content/repositories/releases/-->
-            <!--</url>-->
-        <!--</repository>-->
-        <!--<snapshotRepository>-->
-            <!--<id>m2-snapshots</id>-->
-            <!--<name>nexus snapshots</name>-->
-            <!--<url>-->
-                <!--http://120.77.172.83:8081/nexus/content/repositories/snapshots/-->
-            <!--</url>-->
-        <!--</snapshotRepository>-->
-    <!--</distributionManagement>-->
+
 
     <distributionManagement>
         <repository>
@@ -266,13 +251,13 @@
                 <enabled>true</enabled>
             </snapshots>
             <url>
-                http://third.integriti.cn:8081/repository/maven-snapshots/
+                http://122.51.227.25:8081/repository/maven-snapshots/
             </url>
         </repository>
         <repository>
             <id>nexus-releases</id>
             <url>
-                http://third.integriti.cn:8081/repository/maven-releases/
+                http://122.51.227.25:8081/repository/maven-releases/
             </url>
         </repository>
         <repository>
