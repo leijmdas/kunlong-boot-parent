@@ -38,13 +38,7 @@
                 <artifactId>druid</artifactId>
                 <version>1.1.9</version>
             </dependency>
-            <!--<dependency>-->
-                <!--<groupId>org.projectlombok</groupId>-->
-                <!--<artifactId>lombok</artifactId>-->
-            <!--</dependency>-->
-            <!--
-             https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch
-            -->
+
             <dependency>
                 <groupId>org.elasticsearch</groupId>
                 <artifactId>elasticsearch</artifactId>
@@ -206,12 +200,12 @@
         <repository>
             <id>MyReleasesNexus</id>
             <name>Nexus Releases Repository</name>
-            <url>http://122.51.227.25:8081/repository/maven-releases/</url>
+            <url>http://nexus.akunlong.top:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>MySnapshotNexus</id>
             <name>Nexus snapshots Repository</name>
-            <url>http://122.51.227.25:8081/repository/maven-snapshots/</url>
+            <url>http://nexus.akunlong.top:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -254,13 +248,13 @@
                 <enabled>true</enabled>
             </snapshots>
             <url>
-                http://122.51.227.25:8081/repository/maven-snapshots/
+                http://nexus.akunlong.top:8081/repository/maven-snapshots/
             </url>
         </repository>
         <repository>
             <id>nexus-releases</id>
             <url>
-                http://122.51.227.25:8081/repository/maven-releases/
+                http://nexus.akunlong.top:8081/repository/maven-releases/
             </url>
         </repository>
         <repository>
